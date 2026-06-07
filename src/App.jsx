@@ -1,12 +1,15 @@
-import NavBar from "./layout/NavBar";
+import TopNavBar from "./layout/TopNavBar";
 import Header from "./layout/Header";
 import Body from "./layout/Body";
 import Footer from "./layout/Footer";
-export default function App(){
+import Pages from "./pages";
+function App(){
   return <>
-  <NavBar/>
+  <TopNavBar/>
   <Header />
   <Body />
   <Footer />
+  <Pages/>
   </>
 }
+export default App
