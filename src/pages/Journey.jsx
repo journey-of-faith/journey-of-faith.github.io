@@ -6,7 +6,7 @@ export default function Journey() {
             <div className="flex justify-center -z-10 m-3">
                 <PageTitle title="رحلة إيمان عبر اليرية" />
             </div>
-            <div className="relative w-full max-w-[800px]">
+            <div className="relative w-full max-w-200">
                 <img
                     src="/map.jpg"
                     alt="map"
@@ -24,7 +24,6 @@ export default function Journey() {
                     <Button number="3" />
                 </div>
             </div>
-
         </div>
     )
 }
