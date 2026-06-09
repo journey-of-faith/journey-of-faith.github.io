@@ -12,7 +12,7 @@ export default function TopNavBar() {
                 <Link to="journey">The Journey</Link>
             </div>
             <div>
-                <Link>Concept</Link>
+                <Link to="concept">Concept</Link>
             </div>
 
         </nav>

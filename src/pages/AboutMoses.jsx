@@ -1,9 +1,11 @@
 import PageTitle from "../components/atoms/PageTitle"
-export default function AboutMoses(){
-    return(
+export default function AboutMoses() {
+    return (
         <div>
-            <PageTitle title="About Moses"/>
-            <div>الاليال نتسبتنتسن نبسنتنتبن نتبانت</div>
+            <div className="flex justify-center ">
+                <PageTitle title="نبذة عن موسى النبي" />
+            </div>
+            <div className="flex justify-end mr-4">الاليال نتسبتنتسن نبسنتنتبن نتبانت</div>
         </div>
     )
 }
