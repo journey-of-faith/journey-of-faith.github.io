@@ -1,7 +1,11 @@
+import { useState } from "react";
 import PageTitle from "../components/atoms/PageTitle";
+import ProfileModal from "../components/ProfileModal";
 import Button from "../components/atoms/Button";
 export default function Journey() {
+    const [selectButton, setSelectButton] = useState (null);
     return (
+        <>
         <div>
             <div className="flex justify-center -z-10 m-3">
                 <PageTitle title="رحلة إيمان عبر اليرية" />
@@ -25,5 +29,6 @@ export default function Journey() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
