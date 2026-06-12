@@ -18,17 +18,21 @@ export default function Journey() {
                 />
 
                 <div className="absolute top-[18%] left-[19.5%]">
-                    <Button number="1" />
+                    <Button number="1" onClick={()=>setSelectButton(1)}/>
                 </div>
 
                 <div className="absolute top-[21.2%] left-[25%]">
-                    <Button number="2" />
+                    <Button number="2" onClick={()=>setSelectButton(2)}/>
                 </div>
                 <div className="absolute top-[29%] left-[25%]">
-                    <Button number="3" />
+                    <Button number="3" onClick={()=> setSelectButton(3)} />
                 </div>
             </div>
         </div>
+        <ProfileModal 
+        isOpen={selectButton !==null}
+       button={selectButton}
+       onClose={()=>setSelectButton(null)}/>
         </>
     )
 }
