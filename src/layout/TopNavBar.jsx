@@ -8,11 +8,12 @@ export default function TopNavBar() {
             
             
             <div >
-                <Link to="aboutmoses" className="m-4">About Prophet Moses</Link>
-                <Link to="journey">The Journey</Link>
+                <Link to="aboutmoses" className="m-4"> شخصية موسى النبي</Link>
+                <Link to="journey" className="m-4">رحلة الإيمان</Link>
+                <Link to="reference" className="m-4">المراجع</Link>
             </div>
             <div>
-                <Link to="concept">Concept</Link>
+                <Link to="concept">الهدف</Link>
             </div>
 
         </nav>
