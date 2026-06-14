@@ -43,6 +43,45 @@ export default function Journey() {
                 <div className="absolute top-[69%] left-[52%]">
                     <Button number="8" onClick={()=> setSelectButton(8)} />
                 </div>
+                <div className="absolute top-[84%] left-[61.5%]">
+                    <Button number="9" onClick={()=> setSelectButton(9)} />
+                </div>
+                <div className="absolute top-[79%] left-[65.8%]">
+                    <Button number="10" onClick={()=> setSelectButton(10)} />
+                </div>
+                <div className="absolute top-[73%] left-[67%]">
+                    <Button number="11" onClick={()=> setSelectButton(11)} />
+                </div>
+                <div className="absolute top-[67.6%] left-[69.4%]">
+                    <Button number="12" onClick={()=> setSelectButton(12)} />
+                </div>
+                <div className="absolute top-[45.9%] left-[69.6%]">
+                    <Button number="13" onClick={()=> setSelectButton(13)} />
+                </div>
+                 <div className="absolute top-[39.5%] left-[68%]">
+                    <Button number="14" onClick={()=> setSelectButton(14)} />
+                </div>
+                <div className="absolute top-[33.5%] left-[65.9%]">
+                    <Button number="15" onClick={()=> setSelectButton(15)} />
+                </div>
+                <div className="absolute top-[58%] left-[76%]">
+                    <Button number="16" onClick={()=> setSelectButton(16)} />
+                </div>
+                 <div className="absolute top-[48.3%] left-[79.4%]">
+                    <Button number="17" onClick={()=> setSelectButton(17)} />
+                </div>
+                <div className="absolute top-[35.6%] left-[82.8%]">
+                    <Button number="18" onClick={()=> setSelectButton(18)} />
+                </div>
+                <div className="absolute top-[12.3%] left-[89%]">
+                    <Button number="19" onClick={()=> setSelectButton(19)} />
+                </div>
+                <div className="absolute top-[4.3%] left-[89.5%]">
+                    <Button number="20" onClick={()=> setSelectButton(20)} />
+                </div>
+                <div className="absolute top-[0.4%] left-[85.5%]">
+                    <Button number="21" onClick={()=> setSelectButton(21)} />
+                </div>
             </div>
         </div>
         <ProfileModal 
