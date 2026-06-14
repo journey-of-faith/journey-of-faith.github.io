@@ -1,9 +1,10 @@
+import { AiOutlineSound } from "@react-icons/all-files/ai/AiOutlineSound"
+export default function Sound({ audioRef }) {
 
-export default function Sound (){
     return(
         <div>
-            <button className="cursor-pointer text-3xl text-blue-500"></button>
-            
+            <button onClick={()=>audioRef.current.play()} className="cursor-pointer text-3xl text-blue-500"><AiOutlineSound/></button>
+        
         </div>
     )
 }
