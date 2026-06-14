@@ -1,8 +1,6 @@
 import { useRef } from "react";
 import Sound from "./atoms/Sound";
 export default function ProfileModal({ isOpen, onClose, button }) {
-    const audioRef = useRef(null);
-    if (!isOpen) return null;
     const content = {
         1: {
             title: "رعمسيس",
