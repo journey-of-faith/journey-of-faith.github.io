@@ -21,11 +21,17 @@ export default function Journey() {
                     <Button number="1" onClick={()=>setSelectButton(1)}/>
                 </div>
 
-                <div className="absolute top-[21.2%] left-[25%]">
+                <div className="absolute top-[20.3%] left-[25%]">
                     <Button number="2" onClick={()=>setSelectButton(2)}/>
                 </div>
                 <div className="absolute top-[29%] left-[25%]">
                     <Button number="3" onClick={()=> setSelectButton(3)} />
+                </div>
+                <div className="absolute top-[40%] left-[25%]">
+                    <Button number="4" onClick={()=> setSelectButton(4)} />
+                </div>
+                <div className="absolute top-[47%] left-[33%]">
+                    <Button number="5" onClick={()=> setSelectButton(5)} />
                 </div>
             </div>
         </div>
