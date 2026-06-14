@@ -12,7 +12,7 @@ export default function Sound({ audioRef }) {
 
     return(
         <div>
-            <button onClick={toggleSound} className="cursor-pointer text-3xl text-blue-500"><AiOutlineSound/></button>
+            <button onClick={toggleSound} className="cursor-pointer hover:scale-150 transition text-3xl text-blue-500"><AiOutlineSound/></button>
         
         </div>
     )

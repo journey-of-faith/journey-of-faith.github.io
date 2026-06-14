@@ -9,25 +9,48 @@ export default function ProfileModal({ isOpen, onClose, button }) {
             audio: "/audio/first.mp3",
             image:"/pics/ramsis.jpeg",
         },
-        2: {
-            title: "إيثام",
-            text: "Content for button 2",
-            audio: "/audio/first.mp3",
-        },
-        3: {
+           2: {
             title: "سكوت",
             text: "Content for button 3",
             audio: "/audio/first.mp3",
+            image:"/pics/skoot.jpeg",
         },
+        3: {
+            title: "إيثام",
+            text: "Content for button 2",
+            audio: "/audio/first.mp3",
+            image:"/pics/ramsis.jpeg",
+        },
+     
           4: {
             title: "مجدل",
             text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
             audio: "/audio/first.mp3",
+            image:"/pics/ramsis.jpeg",
         },
         5: {
             title: "فم حيروث",
             text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
             audio: "/audio/first.mp3",
+            image:"/pics/ramsis.jpeg",
+        },
+        6: {
+            title: "مارة",
+            text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
+            audio: "/audio/first.mp3",
+            image:"/pics/ramsis.jpeg",
+        },
+        7: {
+            title: "إيليم",
+            text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
+            audio: "/audio/first.mp3",
+            image:"/pics/ramsis.jpeg",
+        },
+        8: {
+            title: "رفيديم",
+            text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
+            audio: "/audio/first.mp3",
+            image:"/pics/ramsis.jpeg",
         },
     };
      const [showImage,setShowImage]=useState(false);
@@ -47,7 +70,7 @@ export default function ProfileModal({ isOpen, onClose, button }) {
                 
                     <div className="flex justify-between mb-4" >
                         <h2 className="text-2xl font-bold">{content[button]?.title}</h2>
-                        <button onClick={handleClose} className=" flex justify-end font-semibold text-2xl">x</button>
+                        <button onClick={handleClose} className=" flex justify-end font-semibold text-2xl cursor-pointer hover:text-amber-900 hover:scale-120 transition">x</button>
                     </div>
                     
                     <div className="flex items-center gap-4">
@@ -65,7 +88,7 @@ export default function ProfileModal({ isOpen, onClose, button }) {
                 </div>
                 {showImage && (
     <div
-        className="fixed inset-0 bg-black/80 flex justify-center items-center z-[60]"
+        className="fixed inset-0 bg-black/80 flex justify-center items-center z-60"
         onClick={() => setShowImage(false)}
     >
         <img

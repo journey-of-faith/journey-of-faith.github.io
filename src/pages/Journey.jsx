@@ -10,7 +10,7 @@ export default function Journey() {
             <div className="flex justify-center -z-10 m-3">
                 <PageTitle title="رحلة إيمان عبر اليرية" />
             </div>
-            <div className="relative w-full max-w-200">
+            <div className="flex justify-center relative w-full max-w-200">
                 <img
                     src="/map.jpg"
                     alt="map"
@@ -20,18 +20,28 @@ export default function Journey() {
                 <div className="absolute top-[18%] left-[19.5%]">
                     <Button number="1" onClick={()=>setSelectButton(1)}/>
                 </div>
+                <div className="absolute top-[30%] left-[25%]">
+                    <Button number="2" onClick={()=> setSelectButton(2)} />
+                </div>
 
-                <div className="absolute top-[20.3%] left-[25%]">
-                    <Button number="2" onClick={()=>setSelectButton(2)}/>
+                <div className="absolute top-[20.8%] left-[25%]">
+                    <Button number="3" onClick={()=>setSelectButton(3)}/>
                 </div>
-                <div className="absolute top-[29%] left-[25%]">
-                    <Button number="3" onClick={()=> setSelectButton(3)} />
-                </div>
-                <div className="absolute top-[40%] left-[25%]">
+                
+                <div className="absolute top-[40%] left-[25.2%]">
                     <Button number="4" onClick={()=> setSelectButton(4)} />
                 </div>
-                <div className="absolute top-[47%] left-[33%]">
+                <div className="absolute top-[48%] left-[33%]">
                     <Button number="5" onClick={()=> setSelectButton(5)} />
+                </div>
+                <div className="absolute top-[55%] left-[39%]">
+                    <Button number="6" onClick={()=> setSelectButton(6)} />
+                </div>
+                <div className="absolute top-[63%] left-[42.21%]">
+                    <Button number="7" onClick={()=> setSelectButton(7)} />
+                </div>
+                <div className="absolute top-[69%] left-[52%]">
+                    <Button number="8" onClick={()=> setSelectButton(8)} />
                 </div>
             </div>
         </div>
