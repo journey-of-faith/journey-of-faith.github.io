@@ -19,7 +19,7 @@ export default function ProfileModal({ isOpen, onClose, button }) {
             title: "إيثام",
             text: "Content for button 2",
             audio: "/audio/first.mp3",
-            image:"/pics/ramsis.jpeg",
+            image:"/pics/etham.jpeg",
         },
      
           4: {
@@ -62,7 +62,7 @@ export default function ProfileModal({ isOpen, onClose, button }) {
             title: "تبعيرة",
             text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
             audio: "/audio/first.mp3",
-            image:"/pics/ramsis.jpeg",
+            image:"/pics/tabeera.jpeg",
         },
           11: {
             title: "قبروت هتأوة",
@@ -74,7 +74,7 @@ export default function ProfileModal({ isOpen, onClose, button }) {
             title: "حضيروت",
             text:"مجدل كانت نقطة حراسة مصرية على حدود مصر الشرقية. خيّم بنو إسرائيل بالقرب منها قبل عبور البحر مباشرة. في هذا المكان بدا الشعب محاصرًا بين البحر وجيش فرعون، لكن الله حوّل الموقف المستحيل إلى أعظم معجزة خلاص في رحلة الخروج",
             audio: "/audio/first.mp3",
-            image:"/pics/ramsis.jpeg",
+            image:"/pics/hadairoot.jpeg",
         },
         13: {
             title: "مقهيلوت",
