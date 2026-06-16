@@ -5,7 +5,15 @@ export default function AboutMoses() {
             <div className="flex justify-center ">
                 <PageTitle title="نبذة عن موسى النبي" />
             </div>
-            <div className="flex justify-end mr-4">الاليال نتسبتنتسن نبسنتنتبن نتبانت</div>
+            <div className="flex justify-between grid-cols-2">
+            <div className="p-4 rounded-3xl">
+                <img src="./stMoses.jpg" alt="" />
+            </div>
+            <div className=" mr-4">
+                <h2>موسى النبي، كليم الله ورجل الله، هو أحد أعظم شخصيات العهد القديم وأبرز الأنبياء الذين هيأوا البشرية لعمل الفداء. وُلد في زمن العبودية المرة في أرض مصر، ولكن العناية الإلهية العجيبة أنقذته من الموت في النهر ليربى في قصر فرعون، متمرساً بكل حكمة المصريين، ليكون مُعداً لقيادة شعب الله.</h2>
+            </div>
+            
+            </div>
         </div>
     )
 }

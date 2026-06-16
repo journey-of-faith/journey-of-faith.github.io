@@ -12,7 +12,7 @@ export default function Pages() {
             <Route path='concept' element={<Concept/>}/>
             <Route path='reference' element={<References/>}/>
         </Routes>
-        <img className="flex justify-center m-3" src="./stMoses.jpg" alt="" />
+        {/* <img className="flex justify-center m-3" src="./stMoses.jpg" alt="" /> */}
         </div>
     )
 }

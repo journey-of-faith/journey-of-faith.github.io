@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PageTitle from "../components/atoms/PageTitle";
-import ProfileModal from "../components/ProfileModal";
+import ProfileModalAudio from "../components/ProfileModalAudio";
 import Button from "../components/atoms/Button";
 export default function Journey() {
     const [selectButton, setSelectButton] = useState (null);
@@ -84,10 +84,13 @@ export default function Journey() {
                 </div>
             </div>
         </div>
-        <ProfileModal 
+        <ProfileModalAudio 
         isOpen={selectButton !==null}
        button={selectButton}
        onClose={()=>setSelectButton(null)}/>
+       
+
         </>
     )
 }
+
