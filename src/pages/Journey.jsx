@@ -6,7 +6,7 @@ export default function Journey() {
     const [selectButton, setSelectButton] = useState (null);
     return (
         <>
-        <div>
+        <div className="-full min-h-screen bg-linear-to-r from-amber-200 to-blue-200">
             <div className="flex justify-center -z-10 m-3">
                 <PageTitle title="رحلة إيمان عبر البرية " />
             </div>
