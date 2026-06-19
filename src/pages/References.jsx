@@ -6,7 +6,7 @@ export default function References() {
                 <PageTitle title="المراجع" />
             </div>
             <div className="flex justify-end-safe grid-cols-2">
-                <img src="/stMosesPic.jpeg" alt="" className="p-2 rounded-3xl w-3xl max-h-screen mr-3 " />
+                <img src="/mosesPro.jpeg" alt="" className="p-2 rounded-3xl w-3xl max-h-screen mr-3 " />
                 <div className="flex justify-items mr-4 text-right leading-8 text-lg font-semibold" dir="rtl">
                     <ul>
                         <li>+ كتاب المقدس </li>

@@ -220,7 +220,7 @@ export default function ProfileModalAudio({ isOpen, onClose, button }) {
             text: <h2><b>📍 الموقع:</b> أرض موآب<br /><b>🏜️ الطبيعة:</b> هضاب وأودية صخرية <br /><b>🚶 المرحلة:</b> من آخر محطات الرحلة<br /><b>🎯 الأهمية:</b> الاقتراب من أرض الموعد
                 <br /><b>🛡️ المعنى:</b> الحصن أو السور<br /><b>📖 الدرس الروحي:</b> الثبات حتى النهاية<br /><b>⏳ الفترة:</b> قبل عبور الأردن مباشرة<br /><b>✨ الرسالة:</b> مواعيد الله أقرب مما نتخيل</h2>,
             audio: "/audio/keer.mp4",
-            image: "/pics/ramsis.jpeg",
+            image: "/pics/kir.jpeg",
         },
         20: {
             title: <h2>20- حشبون</h2>,

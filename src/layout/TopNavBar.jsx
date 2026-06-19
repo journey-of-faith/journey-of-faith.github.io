@@ -1,9 +1,9 @@
 import { Link } from "react-router";
 export default function TopNavBar() {
     return (
-        <nav className="hidden sticky sm:flex text-zinc-200 bg-linear-to-r from-amber-950 to-amber-700 px-2 py-3 justify-between gap-2">
+        <nav className="hidden sticky sm:flex text-zinc-200 bg-linear-to-r from-amber-950 to-amber-700 p-3 flex justify-between gap-2">
             <div>
-                <img src="/stMoses.jpg" alt="" className="flex w-15 h-15 rounded-full" />
+                <img src="/stMoses.jpg" alt="" className="flex  w-18 h-18 rounded-full" />
             </div>
             
             

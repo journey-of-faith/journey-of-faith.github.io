@@ -24,7 +24,7 @@ export default function Journey() {
                     <Button number="2" onClick={()=> setSelectButton(2)} />
                 </div>
 
-                <div className="absolute top-[20.8%] left-[25%]">
+                <div className="absolute top-[21.3%] left-[25.2%]">
                     <Button number="3" onClick={()=>setSelectButton(3)}/>
                 </div>
                 
