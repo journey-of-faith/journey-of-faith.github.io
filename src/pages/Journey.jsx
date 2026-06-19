@@ -8,7 +8,7 @@ export default function Journey() {
         <>
         <div>
             <div className="flex justify-center -z-10 m-3">
-                <PageTitle title="رحلة إيمان عبر اليرية" />
+                <PageTitle title="رحلة إيمان عبر البرية " />
             </div>
             <div className="flex justify-center relative w-full max-w-200">
                 <img

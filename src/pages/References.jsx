@@ -1,12 +1,12 @@
 import PageTitle from "../components/atoms/PageTitle";
 export default function References() {
     return (
-        <div className="w-full min-h-screen bg-linear-to-r from-amber-500 to-blue-500">
+        <div className="w-full min-h-screen bg-linear-to-r from-amber-200 to-blue-200">
             <div className="flex justify-center -z-10 m-3">
                 <PageTitle title="المراجع" />
             </div>
             <div className="flex justify-end-safe grid-cols-2">
-                <img src="/stMosesPic.jpeg" alt="" className="p-2 rounded-3xl w-3xl max-h-screen mr-3" />
+                <img src="/stMosesPic.jpeg" alt="" className="p-2 rounded-3xl w-3xl max-h-screen mr-3 " />
                 <div className="flex justify-items mr-4 text-right leading-8" dir="rtl">
                     <ul>
                         <li>+ كتاب المقدس </li>

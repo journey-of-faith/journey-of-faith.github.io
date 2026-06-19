@@ -8,8 +8,8 @@ export default function TopNavBar() {
             
             
             <div >
-                <Link to="aboutmoses" className="m-4 font-normal text-xl"> شخصية موسى النبي</Link>
-                <Link to="journey" className="m-4 font-normal text-xl">رحلة الإيمان</Link>
+                <Link to="aboutmoses" className="m-4 font-normal text-xl"> شخصية موسى النبي  </Link>
+                <Link to="journey" className="m-4 font-normal text-xl">رحلة الإيمان </Link>
                 <Link to="reference" className="m-4 font-normal text-xl">المراجع</Link>
             </div>
             <div>
