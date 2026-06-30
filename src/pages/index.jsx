@@ -2,6 +2,7 @@ import Journey from "./Journey";
 import AboutMoses from "./AboutMoses";
 import Concept from "./Concept";
 import References from "./References";
+import Evaluation from "./Evaluation";
 import { Routes, Route } from "react-router";
 export default function Pages() {
     return (
@@ -11,6 +12,7 @@ export default function Pages() {
             <Route path='aboutmoses' element={<AboutMoses/>} />
             <Route path='concept' element={<Concept/>}/>
             <Route path='reference' element={<References/>}/>
+            <Route path='evaluation' element={<Evaluation/>}/>
         </Routes>
         <div className="flex justify-center p-7"><img className="m-3 rounded-4xl" src="./mosesPro.jpeg" alt="" /></div>
         

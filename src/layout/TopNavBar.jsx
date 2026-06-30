@@ -8,9 +8,10 @@ export default function TopNavBar() {
             
             
             <div >
+                <Link to="reference" className="m-4 font-normal text-xl  hover:text-amber-400">المراجع </Link>
+                <Link to="evaluation" className="m-4 font-normal text-xl  hover:text-amber-400">التطبيق والتقييم</Link>
                 <Link to="aboutmoses" className="m-4 font-normal text-xl hover:text-amber-400 "> شخصية موسى النبي  </Link>
                 <Link to="journey" className="m-4 font-normal text-xl  hover:text-amber-400">رحلة الإيمان </Link>
-                <Link to="reference" className="m-4 font-normal text-xl  hover:text-amber-400">المراجع</Link>
             </div>
             <div>
                 <Link to="concept" className="m-4 font-normal text-xl  hover:text-amber-400">الهدف</Link>
